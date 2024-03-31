@@ -3,7 +3,7 @@
     "name": "startbootstrap-landing-page",
     "version": "6.0.6",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets [my-framework] build --output public",
         "build:assets": "node scripts/build-assets.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
@@ -50,4 +50,5 @@
         "shelljs": "0.8.5",
         "upath": "2.0.1"
     }
+    
 }
